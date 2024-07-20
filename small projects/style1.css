@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "poppins" , sans-serif;
+    --color1:white;
+    --color: black;
+
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: var(--color);
+    padding: 12px 20px;
+}
+.logo img { width: 40px;}
+.menu{ display: flex;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+       text-decoration;
+    color: var(--color1);
+text-align: center;
+transition: 0.15s ease-in-out;
+position: relative;
+text-transform: uppercase;
+}
+.menu li a::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after{ width: 100%;}
+.open-menu, .close-menu{
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.Hamburgur{
+    display: none;
+    color: white;
+
+}
+/* open-menu{
+    top: 50%;
+    right: 20px;
+    transform: translatey(-50%);
+} */
+
+#check {display: none;}
+@media( max-width: 610px){
+.Hamburgur{
+    color: white;
+    display: contents;
+}
+
+.menu{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100px;
+    z-index: 100;
+    background-color: var(--color);
+    transition: all 0.2s;
+    display: none;
+} }
+.menu li { margin-top: 40px;}
+.menu li a {padding:10px;}
+.open-menu , .close-menu{ display: block;}
+#check:checked ~ .menu{ right: 0;}
+body{
+    
+    font-family: "poppins" , sans-serif;
+    --color1:#fff;
+    --color2:blue;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    background-color: var(--color2);
+    padding: 12px 20px;
+}
+.logo img{ width: 40px;}
+.menu{display: flex;
+ }
+.menu li{padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after{ width: 100%;}
+.open-menu,.close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu{
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu{
+    top: 50%;
+    right: 20px;
+}
+#check{ display: none;}
+.menu li{margin-top: 40px;}
+.menu{padding: 10px;}
+.open-menu , .close-menu{display: block;}
+#check:checked ~ .menu{right:0 ;}
+
+div .buttn{
+    position: center;
+    height:20px;
+    
+}
+div .buttn .btn{
+    background-color:blue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px;
+   
+}
+section .pjt {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+.pjt img{
+    height: 200px;
+    width: 200px;
+
+}
+image{
+    height: auto;
+    width: 100px;
+   display: block;
+  flex-direction: row;
+
+    
+}
+ .y{
+   color: deeblue;
+}
+
+.form1 form input{
+    border-radius: 10px;
+    padding: 15px;
+    border-left: 5px;
+    border-color: blue;
+}
+.form1  .span button{
+    margin: 20px;
+    padding: 0;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    background-color: violet;
+    border-radius: 5px;
+
+}
+.form1  .span button:hover{
+   transform: scale(1,2);
+   background-color: blue;
+   cursor: pointer;
+   transform-box: content-boxew;
+}
+.form2{
+    background-color: lightgray;
+    
+}
+.footer2 p{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+   
+}
+.h2{
+    position: center;
+    color: white;
+    padding: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+div .toto{
+    background-color: lightgray;
+}
+div .A1{
+    position: center;
+    color
+}*, *::after, *::before{
+    box-sizing: border-box;
+
+ }
+ body{
+    margin: 0;
+
+ }
+ 
+ body gla{
+    background-color: lightgray;
+ }
+ .h1{
+    background-color: lightgray
+ }
