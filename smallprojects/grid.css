@@ -1,0 +1,25 @@
+h1 {
+    color: green;
+}
+
+.grid-items{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(1, 0, 0, 0.8);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:green;
+    padding: 10px;
+    border-radius: 0px;
+
+  }
+  body{
+   background-color: ;
+  }
+  .grid-items:hover{
+    transform: scale(0.9);
+    background-color: blue;
+  }
