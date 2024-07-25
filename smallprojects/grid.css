@@ -1,5 +1,11 @@
 h1 {
     color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:hover{
+  
+  color: blue;
+
 }
 
 .grid-items{
@@ -7,12 +13,14 @@ h1 {
     font-size: 30px;
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(1, 0, 0, 0.8);
+    border-radius: 10px;
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 100px 200px 1fr;
+    grid-template-ro: 100px 200px 1fr;
     background-color:green;
-    padding: 10px;
+    padding: 30px;              
     border-radius: 0px;
 
   }

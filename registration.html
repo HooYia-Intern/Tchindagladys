@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="you">
+   <h1  > <b> Registration form</b></h1>
+</div>
+
+<div class="all">
+    <div class="login-light"></div>
+    <div class="login-box">
+        <form action="#">
+            <input type="checkbox" class="input-check" id="input-check">
+            <label for="input-check" class="toggle">
+                <span class="text off">off</span>
+                <span class="text on">on</span>
+            </label>
+            <div class="light"></div>
+
+            <h2>Register</h2>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>
+                <label>Email</label>
+                <div class="input-line"></div>
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>
+                <label>Password</label>
+                <div class="input-line"></div>
+            </div>
+
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="confirm-password" required>
+                <label>Confirm-Password</label>
+                <div class="input-line"></div>
+            </div>
+
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="BrandySCarney"></ion-icon>
+                </span>
+                <input type="fullname" required>
+                <label>fullname</label>
+                <div class="input-line"></div>
+            </div>
+
+            
+
+
+        <div class="remember-forgot">
+            <label><input type="checkbox"> Remember me</label>
+            <a href="#">Forgot Password?</a>
+        </div>
+        <button type="submit">Login</button>
+        <div class="register-link">
+            <p>Don't have an account? <a href="#">Register</a></p>
+        </div>
+    </form>
+</div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module" src=" http://luc.devroye.org/BrandySCarney-IonIcons-2019+.png"></script>
+
+  <script src="validation.js"></script>
+</body>
+</html>
